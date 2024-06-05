@@ -1,0 +1,351 @@
+
+.div-header-form{
+    color: #242932;
+}
+
+.div-text-body p{
+    color: #242932;
+    line-height: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.div-header-form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.div-header-form h4{
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    font-size: 1rem;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: left;
+}
+
+.div-header-form h2{
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    text-align: left;
+}
+
+.div-container-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.logo{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: inherit;
+    width: 25vw;
+    height: 100vh;
+    padding: 0 5rem;
+    background-color: #242932;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.show{
+    display: flex;
+}
+
+.div-header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 20vw;
+    height: 25%;
+    margin-top: 3rem;
+}
+
+.div-header h4{
+    font-weight: bold;
+    color: rgb(204, 163, 88);
+    font-size: 1rem;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: left;
+}
+
+.div-header h2{
+    font-weight: bold;
+    color: rgb(204, 163, 88);
+    font-size: 2rem;
+    padding-bottom: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 20vw;
+    height: 45%;
+}
+
+.footer{
+    width: 20vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.div-container-page{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    background-color: #f9f9f9;
+    padding: 0 10rem;
+    height: 100vh;
+    width: 75vw;
+    overflow-y: scroll;
+}
+
+.div-container-page .page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 34rem;
+    min-height: 100vh;
+}
+
+.div-container-page .div-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.div-container-page .div-experience{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.div-container-page .div-projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.div-container-page .div-skilles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+@media screen and (max-width: 320px) {
+
+}
+
+@media screen and (max-width: 480px) {
+    .div-container-nav{
+        position: fixed;
+        min-width: 90vw;
+        height: auto;
+        background-color: #242932;
+        z-index: 1;
+    }
+
+    .div-menu{
+        height: 4rem;
+        width: inherit;
+        background-color: #242932;
+    }
+
+    .div-image{
+        position: absolute;
+        top: 4rem;
+        width: inherit;
+        height: 55vh;
+        padding: 0;
+        justify-content: flex-start;
+    }
+
+    .show{
+        display: none;
+    }
+
+    .div-header{
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        margin: 0;
+    }
+
+    .div-header h4{
+        padding: 0;
+        width: auto;
+        text-align: center;
+    }
+    
+    .div-header h2{
+        width: auto;
+        text-align: center;
+    }
+
+    .nav{
+        align-items: center;
+        height: 60%;
+    }
+    
+    .footer{
+        width: auto;
+        justify-content: center;
+    }
+
+    .logo{
+        width: auto;
+        margin: 1rem;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    .icon{
+        display: block;
+        width: 2rem;
+    }
+
+    .div-container-page{
+        position: relative;
+        padding: 0;
+        height: auto;
+        width: auto;
+    }
+
+    .div-container-page .page{
+        position: relative;
+        min-width: 90vw;
+        min-height: 100vh;
+        padding: 0 2.5rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 960px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+    .div-container-nav{
+        position: fixed;
+        min-width: 90vw;
+        height: auto;
+        background-color: #242932;
+        z-index: 1;
+    }
+
+    .div-menu{
+        height: 4rem;
+        width: inherit;
+        background-color: #242932;
+    }
+
+    .div-image{
+        position: absolute;
+        top: 4rem;
+        width: inherit;
+        height: 55vh;
+        padding: 0;
+        justify-content: flex-start;
+    }
+
+    .show{
+        display: none;
+    }
+
+    .div-header{
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        margin: 0;
+    }
+
+    .div-header h4{
+        padding: 0;
+        width: auto;
+        text-align: center;
+    }
+    
+    .div-header h2{
+        width: auto;
+        text-align: center;
+    }
+
+    .nav{
+        align-items: center;
+        height: 60%;
+    }
+    
+    .footer{
+        width: auto;
+        justify-content: center;
+    }
+
+    .logo{
+        width: auto;
+        margin: 1rem;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    .icon{
+        display: block;
+        width: 2rem;
+    }
+
+    .div-container-page{
+        position: relative;
+        padding: 0;
+        height: auto;
+        width: auto;
+    }
+
+    .div-container-page .page{
+        position: relative;
+        min-width: 100vw;
+        min-height: 100vh;
+        padding: 0 2.5rem;
+    }
+
+}

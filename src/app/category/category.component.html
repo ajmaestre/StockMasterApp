@@ -1,0 +1,14 @@
+<div class="container-div page">
+	<div class="container-list">
+		<div class="header-list">
+			<span class="span-id">Id</span>
+			<span class="span-name">Nombre</span>
+			<span class="span-desc">Descripción</span>
+		</div>
+		<div class="header-body" *ngFor="let cat of categoriaList">
+			<span class="span-id">{{cat.idCategoria}}</span>
+			<span class="span-name">{{cat.nombre}}</span>
+			<span class="span-desc">{{cat.descripcion}}</span>
+		</div>
+	</div>
+</div>
